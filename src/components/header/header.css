@@ -1,0 +1,33 @@
+.container-header {
+    height: 18.188rem;
+    background-color: #17171A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav {
+    background: linear-gradient(0deg, #202024, #202024),
+        linear-gradient(0deg, #252529, #252529);
+    color: #fff;
+    width: 76rem;
+    height: 4rem;
+    margin-top: 3.125rem;
+    display: flex;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    padding: 1rem 1.5px 1rem 1.5rem;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.nav img {
+    width: 2rem;
+    height: 2rem;
+}

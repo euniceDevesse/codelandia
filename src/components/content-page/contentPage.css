@@ -1,0 +1,51 @@
+
+.container-blocks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.875rem;
+    margin-top: 1.875rem;
+    height: 100vh;
+    
+    
+}
+
+.box{
+    background-color: #17171A;
+    max-width: 76rem;
+    max-height: 15.188rem;
+    color: #fff;
+    border: 0.125rem solid #E07B67;
+    border-radius: 0.5rem;
+
+}
+.date{
+    display: flex;
+    color: #E07B67;
+    justify-content: space-between;
+    
+    
+}
+
+.box p,
+.box h3{
+    padding: 0.938rem;
+}
+
+.box p{
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.box1{
+    border: 0.125rem solid #252529;
+}
+
+.date img{
+    margin-right: 1.875rem;
+}
